@@ -1,0 +1,21 @@
+{
+    "name": "school-payroll",
+    "version": "0.1.0",
+    "kernel": "^1.19.0",
+    "solves": "school.payroll",
+    "type": "module",
+    "requires": [
+        "database.management",
+        "audit.trail",
+        "school.people"
+    ],
+    "exposes": [
+        "Plugins\\SchoolPayroll\\API\\Contracts\\SchoolPayrollContract"
+    ],
+    "routes": [],
+    "emits": [],
+    "listens": [],
+    "files": [],
+    "documentation": "Staff and teacher salaries with per-target caps.",
+    "config": []
+}
